@@ -4,7 +4,7 @@ Generic Repository Design (using MongoDB)
 
 You can import test data in mongo like this
 
-mongoimport --db DBName --collection CollectionName --type json --file test-movies.json --jsonArray
+mongoimport --db DBName --collection CollectionName --type json --file test-movie.json --jsonArray
 
 mongoimport --db DBName --collection CollectionName --type json --file test-series.json --jsonArray
 
