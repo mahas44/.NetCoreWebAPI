@@ -4,9 +4,9 @@ Generic Repository Design (using MongoDB)
 
 some url exp.
 
-//https://localhost:xxxx/api/series
-//https://localhost:xxxx/api/series/45
-//https://localhost:xxxx/api/series/search?name=gear
+localhost:xxxx/api/series
+localhost:xxxx/api/series/45
+localhost:xxxx/api/series/search?name=gear
 
 //https://localhost:xxxx/api/movies
 //https://localhost:xxxx/api/movies/35
