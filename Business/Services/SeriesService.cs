@@ -43,7 +43,7 @@ namespace Business.Services
 
         IEnumerable<T> ISeriesService<T>.FindByName(string name)
         {
-            return _repository.FilterBy(filter => filter.Name.ToLower().Contains(name.ToLower()));
+            return _repository.FilterBy(filter => filter.OriginalName.ToLower().Contains(name.ToLower()));
 
         }
 

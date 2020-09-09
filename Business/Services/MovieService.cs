@@ -58,7 +58,7 @@ namespace Business.Services
 
         public IEnumerable<T> FindByTitle(string title)
         {
-            return _repository.FilterBy(filter => filter.Title.ToLower().Contains(title.ToLower()));
+            return _repository.FilterBy(filter => filter.OriginalTitle.ToLower().Contains(title.ToLower()));
         }
 
         public void InsertMany(ICollection<T> documents)
